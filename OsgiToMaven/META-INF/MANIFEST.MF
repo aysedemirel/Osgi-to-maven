@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OsgiDevops
+Bundle-SymbolicName: OsgiToMaven
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.ayse.osgidevops.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0"
+Require-Bundle: org.eclipse.osgi;bundle-version="3.18.200",
+ org.eclipse.equinox.console;bundle-version="1.4.500",
+ org.apache.felix.gogo.command;bundle-version="1.1.2",
+ org.apache.felix.gogo.runtime;bundle-version="1.1.6",
+ org.apache.felix.gogo.shell;bundle-version="1.1.4"
+Automatic-Module-Name: OsgiDevops
